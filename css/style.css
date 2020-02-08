@@ -64,3 +64,23 @@ body{
 	border-radius: 50px;
 
 }
+.center_text_header{
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'BigJohn';
+	word-spacing: 20px;
+	margin-top: 200px;
+}
+.text_center_header{
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'BigJohn';
+
+}
+.arrow_header{
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
