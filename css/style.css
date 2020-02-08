@@ -1,0 +1,66 @@
+@font-face {
+  font-family: '';
+  src: ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BigJohn';
+  src: url('BigJohn.eot');
+  src: url('BigJohn.eot?#iefix') format('embedded-opentype'),
+       url('BigJohn.svg#BigJohn') format('svg'),
+       url('BigJohn.ttf') format('truetype'),
+       url('BigJohn.woff') format('woff'),
+       url('BigJohn.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../img/bg_header.jpg);
+}
+.header_icon{
+	font-size: 14px;
+	color: white;
+	font-weight: 600px;
+	text-transform: uppercase;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+}
+.header_menu{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 43px;
+}
+.header_menu li{
+	list-style-type: none;
+	padding-left: 30px;
+}
+.header_menu li a{
+	color: white;
+	font-family: 'BigJohn';
+	font-size: 16px;
+	text-decoration: none;
+}
+.header_menu li a:hover{
+	border: 3px solid white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 50px;
+
+}
