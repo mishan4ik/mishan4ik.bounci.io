@@ -84,3 +84,38 @@ body{
 	margin-top: 200px;
 	margin-bottom: 100px;
 }
+.section_bouncy{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+}
+.bouncy_h5section{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'BigJohn';
+	word-spacing: 15px;
+	margin-top: 100px;	
+}
+.text_bouncysection{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+	width: 60%;
+
+}
+.btn_bouncy{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+	border:1px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 50px;
+
+}
+.ipad_bouncy{
+	margin-top: 80px;
+}
