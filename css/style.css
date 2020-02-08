@@ -89,6 +89,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: white;
+	margin-bottom: 100px;
 }
 .bouncy_h5section{
 	font-size: 16px;
@@ -118,4 +119,94 @@ body{
 }
 .ipad_bouncy{
 	margin-top: 80px;
+}
+.section_details{
+	background-color: white;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 100px;
+}
+.details_h5{
+	font-family: 'BigJohn';
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;	
+}
+.text_details_h5{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+	text-align: center;
+}
+.icons_details{
+	display: flex;
+	justify-content: center;
+}
+.icons_details img{
+	width: 50px;
+	height: 50px;
+
+}
+.heart{
+	border: 1px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px; 
+	border-radius: 50px;
+	background-color: grey;
+}
+.heart:hover{
+	background-color: #19bd9a;
+}
+.mouse{
+	border: 1px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px; 
+	border-radius: 50px;
+	background-color: grey;
+	margin-left: 30px;
+}
+.mouse:hover{
+	background-color: #19bd9a;
+}
+.lamp{
+	border: 1px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px; 
+	border-radius: 50px;
+	background-color: grey;
+	margin-left: 30px;
+}
+.lamp:hover{
+	background-color: #19bd9a;
+}
+.details_ideas{
+	font-family: 'BigJohn';
+	font-size: 16px;
+	margin-top: 100px;
+}
+.details_text_p{
+	font-family: 'BigJohn';
+	font-size: 14px;
+	margin-top: 50px;
+
+}
+.details_text_p span{
+	color: #35c1a1;
+}
+.details_text_p2{
+	font-family: 'BigJohn';
+	font-size: 14px;
+	margin-top: 170px;
+	width: 70%;
+	float: right;
+}
+.details_text_p2 span{
+	color: #35c1a1;
 }
