@@ -210,3 +210,239 @@ body{
 .details_text_p2 span{
 	color: #35c1a1;
 }
+.section_projects{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 100px;
+}
+
+.h5_projects{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'BigJohn';
+	font-size: 16px;
+
+}
+.text_projects{
+	font-family: 'BigJohn';
+	font-size: 14px;
+	margin-top: 50px;
+	text-align: center;
+}
+.projects_img{
+	padding: 0px;
+	border:0;
+	margin-top:100px; 
+}
+.projectsimg3{
+	width: 345px;
+	height: 300px;
+}
+.first_project_overlay{
+	display: block;
+	position: relative;
+}
+.first_project_overlay:before{
+	content: "";
+	position: absolute;
+	background: rgba(44,44,46,0.5);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 1;
+}
+.first_project_overlay:after{
+	content: "";
+	position: absolute;
+	background: rgba(44,44,46,0.5);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 1;
+}
+.first_project_overlay:hover:after{
+	opacity: 0;
+}
+.first_project_overlay:hover:before{
+	opacity: 0;
+}
+.second_project_overlay{
+	display: block;
+	position: relative;
+}
+.second_project_overlay:before{
+	content: "";
+	position: absolute;
+	background: rgba(44,44,46,0.5);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 1;
+}
+.second_project_overlay:after{
+	content: "";
+	position: absolute;
+	background: rgba(44,44,46,0.5);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 1;
+}
+.second_project_overlay:hover:after{
+	opacity: 0;
+}
+.second_project_overlay:hover:before{
+	opacity: 0;
+}
+.third_project_overlay{
+	display: block;
+	position: relative;
+}
+.third_project_overlay:before{
+	content: "";
+	position: absolute;
+	background: rgba(44,44,46,0.5);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 1;
+}
+.third_project_overlay:after{
+	content: "";
+	position: absolute;
+	background: rgba(44,44,46,0.5);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 1;
+}
+.third_project_overlay:hover:after{
+	opacity: 0;
+}
+.third_project_overlay:hover:before{
+	opacity: 0;
+}
+.projects_img div{
+	display: inline-block;
+	float: left;
+	padding: 0;
+	margin: 0;	
+}
+.first_vintage{
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	font-size: 16px;
+	font-family: 'BigJohn';
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+	opacity: 1;
+}
+.first_project_overlay:hover .first_vintage{
+	opacity: 0;
+}
+.second_vintage{
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	font-size: 16px;
+	font-family: 'BigJohn';
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+	opacity: 1;
+}
+.second_project_overlay:hover .second_vintage{
+	opacity: 0;
+}
+.third_vintage{
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	font-size: 16px;
+	font-family: 'BigJohn';
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+	opacity: 1;
+}
+.third_project_overlay:hover .third_vintage{
+	opacity: 0;
+}
+.bg_project{
+	width: 1345px;
+}
+.background_projects{
+	position: relative;
+	display: block;
+}
+.background_projects:after{
+	content: "";
+	position: absolute;
+	left:0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	background-color: rgba(28,168,138, 0.5);
+}
+.background_projects:before{
+	content: "";
+	position: absolute;
+	left:0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	background-color: rgba(28,168,138, 0.5);
+}
+.background_projects:hover:before{
+	opacity: 1;
+}
+.background_projects:hover:after{
+	opacity: 1;
+}
+.overlay_backgrond_project div{
+	display: inline-block;
+}
+.overlay_bg_projects{
+	position: absolute;
+	color: white;
+	font-size: 14px;
+	font-family: 'BigJohn';
+	left: 10%;
+	top: 40%;
+	opacity: 0;
+}
+.background_projects:hover .overlay_bg_projects{
+	opacity:1; 
+}
+.overlay_btnproject{
+	position: absolute;
+	color: white;
+	font-size: 14px;
+	font-family: 'BigJohn';
+	left: 82%;
+	top: 34%;
+	border:2px solid white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 50px;
+	background-color: transparent;
+	opacity: 0;
+
+
+}
+.background_projects:hover .overlay_btnproject{
+	opacity: 1;
+} 
