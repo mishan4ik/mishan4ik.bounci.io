@@ -446,3 +446,161 @@ body{
 .background_projects:hover .overlay_btnproject{
 	opacity: 1;
 } 
+.section_service{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	margin-bottom: 200px;
+}
+.h5_sevice_center{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'BigJohn';
+	text-align: center; 
+}
+.text_service_center{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	text-align: center;
+	margin-top: 50px;
+}
+.icons_service{
+	margin-top: 100px;
+}
+.icons_service img{
+	width: 50px;
+	height: 50px;
+}
+.icons_service div img{
+	border: 1px solid #81868e;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #81868e;
+	border-radius: 50px;
+}
+.icon_service_key:hover{
+	background-color: #19bd9a;
+}
+.icon_service_grafic:hover{
+	background-color: #19bd9a; 
+}
+.icon_service_controller:hover{
+	background-color: #19bd9a; 
+}
+.icon_service_cord:hover{
+	background-color: #19bd9a;
+}
+.icon_service_grafic{
+	margin-top: 20px;
+}
+.icon_service_controller{
+	margin-top: 20px;
+}
+.icon_service_cord{
+	margin-top: 20px;
+}
+.first_about_service{
+	float: left;
+	display: none;
+	margin-top: 100px;
+}
+.h5_programming{
+	font-weight: bold;
+	color: black;
+	font-size: 16px;
+	font-family: 'BigJohn';
+}
+.text_about_programming{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+}
+.text_about_programming1{
+	font-size: 14px;
+	font-family: 'BigJohn';
+}
+.h5_graphic{
+	font-weight: bold;
+	color: black;
+	font-size: 16px;
+	font-family: 'BigJohn';
+}
+.text_about_graphic{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+}
+.text_about_graphic1{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+}
+.second_about_servicegraphic{
+	display: none;
+	margin-top: 100px;
+}
+.h5_usebilliti{
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: 'BigJohn';
+}
+.text_about_usebilliti{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+}
+.text_about_usebilliti1{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+}
+.third_about_serviceusebiliti{
+	display: none;
+	margin-top: 100px;	
+}
+.h5_serviceseo{
+	font-weight: bold;
+	color: black;
+	font-size: 16px;
+	font-family: 'BigJohn';
+}
+.text_about_seo{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+}
+.text_about_seo1{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	margin-top: 50px;
+}
+.fourth_about_serviceseo{
+	display: none;
+	margin-top: 100px;
+}
+.programming_diagram{
+	margin-top: 35%;
+	text-align: center;
+	display: none;
+	justify-content: center;
+}
+.graphic_diagram{
+	margin-top: 35%;
+	text-align: center;
+	display: none;
+	justify-content: center;
+}
+.usabiliti_diagram{
+	margin-top: 35%;
+	text-align: center;
+	display: none;
+	justify-content: center;
+}
+.seo_diagram{
+	margin-top: 35%;
+	display: none;
+	justify-content: center;
+}
