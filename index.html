@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css-percentage-circle-master/css/circle.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
@@ -364,7 +362,7 @@ programming">
 		<div class="row">
 			<div class="portfolio_works col-lg-12">
 				<div class="firstblockprtfolio">
-					<div><a class="overlay_portfolio1" href="">
+					<div class="first_overlay_blockportfolio"><a class="overlay_portfolio1" href="">
 						<h5 class="h5_portf1">title here</h5>
 						<hr class="line_portf1">
 						<p class="text_portf">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
@@ -445,9 +443,86 @@ programming">
 			</div><!--col-lg-12-->
 		</div><!--row-->
 		</div><!--container-->
-		
+	</section>
+	<section class="section_team">
+		<div class="container">
+			<div class="row
+			">
+			<div class="col-lg-12">
+				<h5 class="h5_team">the team</h5>
+				<p class="text_center_team">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br> praesentium</p>
+			</div><!--col-lg-12-->
+			</div><!--row-->
+			<div class="row">
+				<div class="slide">
+					<div class="slide_team">
+				<div class="slider_section col-lg-4">
+					<div>
+					<img src="img/team.png" alt="">
+					</div>
+					<div class="slider_team_name">
+						<h5 class="h5_name_slider">Abdulah Noman</h5>
+					<h5 class="h5_name_work">creative director, code cafe</h5>
+					<p class="text_slider_team">At vero eos et accusamus et iusto odio dignissimos <br> ducimus qui blanditiis praesentium</p>
+					<div class="progressbar">
+  					<span style="width: 85%"></span>
+					</div>
+					<div class="progressbar">
+  					<span style="width: 85%"></span>
+					</div>
+					<div class="progressbar">
+  					<span style="width: 80%"></span>
+					</div>
+					</div><!--slider_team_name-->
+				</div><!--col-lg-6-->
+				<div class="slider1_section col-lg-4">
+					<div>
+					<img src="img/team.png" alt="">
+					</div>
+					<div class="slider_team_name">
+						<h5 class="h5_name_slider">Alex Suha</h5>
+					<h5 class="h5_name_work">web enjeener</h5>
+					<p class="text_slider_team">At vero eos et accusamus et iusto odio dignissimos <br> ducimus qui blanditiis praesentium</p>
+					<div class="progressbar">
+  					<span style="width: 65%"></span>
+					</div>
+					<div class="progressbar">
+  					<span style="width: 65%"></span>
+					</div>
+					<div class="progressbar">
+  					<span style="width: 60%"></span>
+					</div>
+					</div><!--slider_team_name-->
+				</div><!--col-lg-4-->
+				<div class="slider2_section col-lg-4">
+					<div>
+					<img src="img/team.png" alt="">
+					</div>
+					<div class="slider_team_name">
+						<h5 class="h5_name_slider">Boris Wood</h5>
+					<h5 class="h5_name_work">wordpress enjeener</h5>
+					<p class="text_slider_team">At vero eos et accusamus et iusto odio dignissimos <br> ducimus qui blanditiis praesentium</p>
+					<div class="progressbar">
+  					<span style="width: 70%"></span>
+					</div>
+					<div class="progressbar">
+  					<span style="width: 65%"></span>
+					</div>
+					<div class="progressbar">
+  					<span style="width: 80%"></span>
+					</div>
+					</div><!--slider_team_name-->
+				</div><!--col-lg-4-->
+			</div><!--slide_team-->
+			</div><!--slide-->
+			</div><!--row-->
+		</div><!--container-->
 	</section>
 </body>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
 <script>
 	$(".icon_service_key").mouseover(function(){
 		$(".first_about_service").css("display","block");
@@ -500,25 +575,118 @@ programming">
 	})
 </script>
 <script>
+	
+	$(".all").mouseover(function(){
+	$(".first_overlay_blockportfolio").css("display","block");
+	$(".blocksecondportfolio").css("display","block");
+	$(".thirdblockportfolio").css("display","block");
+	$(".thirdblockportfolio").css("display","block");
+	$(".fourblportfolio").css("display","block");
+	$(".fivebl_portfolio").css("display","block");
+	$(".sixblock_portfolio").css("display","block");
+	$(".third_portfolioblock").css("display","block");
+	$(".third2_blockportfolio").css("display","block");
+	$(".third3_blockportfolio").css("display","block");
+	$(".block_portffour").css("display","block");
+	$(".block2_portffour").css("display","block");
+	$(".block3_portffour").css("display","block");
 
+	})
 	$(".print").mouseover(function(){
-		$(".block2_portffour").css("display","none");
-		$(".block3_portffour").css("display","none");
-		$(".block_portffour").css("display","none");
-		$(".third3_blockportfolio").css("display","none");
-		$(".third2_blockportfolio").css("display","none");
-		$(".fivebl_portfolio").css("display","none");
-		$(".firstblockprtfolio").css("display","none");
+	$(".first_overlay_blockportfolio").css("display","none");
+	$(".blocksecondportfolio").css("display","none");
+	$(".thirdblockportfolio").css("display","none");
+	$(".thirdblockportfolio").css("display","none");
+	$(".fourblportfolio").css("display","block");
+	$(".fivebl_portfolio").css("display","none");
+	$(".sixblock_portfolio").css("display","block");
+	$(".third_portfolioblock").css("display","block");
+	$(".third2_blockportfolio").css("display","none");
+	$(".third3_blockportfolio").css("display","none");
+	$(".block_portffour").css("display","none");
+	$(".block2_portffour").css("display","none");
+	$(".block3_portffour").css("display","none");
+
+		
 	})
 	$(".indent").mouseover(function(){
-		$(".block2_portffour").css("display","none");
-		$(".block3_portffour").css("display","none");
-		$(".block_portffour").css("display","none");
-		$(".third3_blockportfolio").css("display","none");
-		$(".third2_blockportfolio").css("display","none");
-		$(".fivebl_portfolio").css("display","none");
-		$(".firstblockprtfolio").css("display","none");
-		$(".fourblportfolio").css("display","none");
+		$(".first_overlay_blockportfolio").css("display","none");
+	$(".blocksecondportfolio").css("display","none");
+	$(".thirdblockportfolio").css("display","none");
+	$(".thirdblockportfolio").css("display","none");
+	$(".fourblportfolio").css("display","none");
+	$(".fivebl_portfolio").css("display","none");
+	$(".sixblock_portfolio").css("display","block");
+	$(".third_portfolioblock").css("display","block");
+	$(".third2_blockportfolio").css("display","none");
+	$(".third3_blockportfolio").css("display","none");
+	$(".block_portffour").css("display","none");
+	$(".block2_portffour").css("display","none");
+	$(".block3_portffour").css("display","none");
 	})
+	$(".brand").mouseover(function(){
+		$(".first_overlay_blockportfolio").css("display","block");
+	$(".blocksecondportfolio").css("display","none");
+	$(".thirdblockportfolio").css("display","block");
+	$(".fourblportfolio").css("display","none");
+	$(".fivebl_portfolio").css("display","none");
+	$(".sixblock_portfolio").css("display","block");
+	$(".third_portfolioblock").css("display","none");
+	$(".third2_blockportfolio").css("display","none");
+	$(".third3_blockportfolio").css("display","none");
+	$(".block_portffour").css("display","block");
+	$(".block2_portffour").css("display","none");
+	$(".block3_portffour").css("display","none");
+	})
+	$(".web").mouseover(function(){
+		$(".first_overlay_blockportfolio").css("display","none");
+	$(".blocksecondportfolio").css("display","none");
+	$(".thirdblockportfolio").css("display","none");
+	$(".fourblportfolio").css("display","none");
+	$(".fivebl_portfolio").css("display","none");
+	$(".sixblock_portfolio").css("display","none");
+	$(".third_portfolioblock").css("display","none");
+	$(".third2_blockportfolio").css("display","none");
+	$(".third3_blockportfolio").css("display","none");
+	$(".block_portffour").css("display","none");
+	$(".block2_portffour").css("display","none");
+	$(".block3_portffour").css("display","block");
+	})
+	$(".html").mouseover(function(){
+	$(".first_overlay_blockportfolio").css("display","none");
+	$(".blocksecondportfolio").css("display","block");
+	$(".thirdblockportfolio").css("display","none");
+	$(".fourblportfolio").css("display","block");
+	$(".fivebl_portfolio").css("display","none");
+	$(".sixblock_portfolio").css("display","none");
+	$(".third_portfolioblock").css("display","none");
+	$(".third2_blockportfolio").css("display","none");
+	$(".third3_blockportfolio").css("display","none");
+	$(".block_portffour").css("display","none");
+	$(".block2_portffour").css("display","none");
+	$(".block3_portffour").css("display","block");
+	})
+	$(".word").mouseover(function(){
+	$(".first_overlay_blockportfolio").css("display","none");
+	$(".blocksecondportfolio").css("display","block");
+	$(".thirdblockportfolio").css("display","none");
+	$(".fourblportfolio").css("display","none");
+	$(".fivebl_portfolio").css("display","none");
+	$(".sixblock_portfolio").css("display","none");
+	$(".third_portfolioblock").css("display","none");
+	$(".third2_blockportfolio").css("display","none");
+	$(".third3_blockportfolio").css("display","none");
+	$(".block_portffour").css("display","none");
+	$(".block2_portffour").css("display","none");
+	$(".block3_portffour").css("display","block");
+	})
+</script>
+
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+	$('.slide_team').slick({
+	dots: true,
+});
+		
 </script>
 </html>
