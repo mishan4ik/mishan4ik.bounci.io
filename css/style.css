@@ -1510,6 +1510,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-image: url(../img/bg_news.jpg);
+	margin-bottom: 100px;
 }
 .h5_latest_news{
 	font-size: 16px;
@@ -1567,4 +1568,68 @@ body{
 }
 .slides_news{
 	display: flex;
+}
+.section_price{
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.price_premium{
+	width: 230px;
+	height: 60px;
+	background-color: #19bd9a;
+}
+.h5_centerprice{
+	font-size: 16px;
+	font-family: 'BigJohn';
+	text-align: center;
+	text-transform: uppercase;
+}
+.text_center_price{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	text-align: center;
+	margin-top: 50px;
+
+}
+.price_blocks{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 100px;
+}
+.h5_premiumprice{
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.h5_dollars{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	color: #1fbba6;
+	font-size: 16px;
+	font-family: 'BigJohn';
+
+}
+.h5_month{
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	font-family: 'BigJohn';
+	color: #8b9097;
+}
+.list_price_menu li{
+	list-style-type: none;
+
+}
+.start_price{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'BigJohn';
+	line-height: 60px;
+}
+.start_price:hover{
+	color: white;
 }
