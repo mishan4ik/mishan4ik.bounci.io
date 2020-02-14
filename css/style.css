@@ -1431,6 +1431,7 @@ body{
 	background-size: 100% 100%;
 	background-position: center;
 	background-image: url(../img/bg_loved.jpg);
+	margin-bottom: 100px;
 
 }
 .h5_loved{
@@ -1451,4 +1452,119 @@ body{
 	padding-right: 20px;
 	border-radius: 50px;
 	margin-bottom: 50px;
+}
+.section_testimonial{
+	background-color: white;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 100px;
+}
+.h5_testimonials{
+	text-align: center;
+	color: black;
+	font-size: 16px;
+	font-family: 'BigJohn';
+	text-transform: uppercase;
+
+}
+.text_center_testimonials{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	text-align: center;
+	margin-top: 50px;
+}
+.text_slidetestimonial{
+	display: block;
+}
+.slides_testimonials{
+	display: flex;
+}
+.slide_testimonial{
+	width: 1100px;
+	margin-top: 100px;
+}
+.slider_sectiontestimonial img{
+	float: left;
+	padding-right: 100px;
+}
+.text_slidetestimonial{
+	text-align: left;
+}
+.slidetestimonialtext{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	width: 80%;
+}
+.name_testimonial{
+	color: #19bd9a;
+	text-transform: uppercase;
+}
+.text_found_testimonial{
+	font-size: 16px;
+	font-family: 'BigJohn';
+	text-transform: uppercase;
+}
+.section_news{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../img/bg_news.jpg);
+}
+.h5_latest_news{
+	font-size: 16px;
+	font-family: 'BigJohn';
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 100px;
+}
+.text_latestnews{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	color: #fff;
+	margin-top: 50px;
+}
+.h5news_ladingpage{
+	font-size: 16px;
+	font-family: 'BigJohn';
+	color: #fff;
+	margin-top: 100px;
+	padding-left: 50px;
+}
+.text_kabir_news{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	color: #fff;
+	text-transform: uppercase;
+	padding-left: 53px;
+}
+.text_kabir_news span{
+	color: #19bd9a;
+
+}
+.text_news_beforereread{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	color: #fff;
+	width: 40%;
+	padding-left: 50px;
+	margin-top: 50px;
+}
+.news_read{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	color: #fff;
+	text-decoration: none;
+	padding-left: 50px;
+	margin-top: 100px;
+}
+.news_read:hover{
+	color: white;
+	text-decoration: none;
+}
+.slider_news{
+	width: 1100px;
+}
+.slides_news{
+	display: flex;
 }
