@@ -1673,3 +1673,289 @@ body{
 	border: 0px solid #19bd9a ;
 	margin-bottom: 100px;
 }
+.section_contact{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	margin-bottom: 100px;
+}
+.first_contactblock img{
+	width: 300px;
+	height: 150px;
+}
+.second_contactblock img{
+	width: 300px;
+	height: 150px;
+	
+}
+.second_contactblock{
+	padding-left: 50px;
+}
+.contact_contentsection{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+.third_contactblock{
+	padding-left: 50px;
+}
+.third_contactblock img{
+	width: 300px;
+	height: 150px;
+}
+.h5_contact{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'BigJohn';
+}
+.text_contactus{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	text-align: center;
+	margin-top: 50px;
+}
+.firstimg_contactblock{
+	display:inline-block;
+}
+.first_overlaycontactblock{
+	position: relative;
+	display: block;
+}
+.first_overlaycontactblock:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(68,71,75,0.5);
+	opacity: 1;
+}
+.first_overlaycontactblock:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(68,71,75,0.5);
+	opacity: 1;
+}
+.first_overlaycontactblock:hover:after{
+	opacity: 0;
+}
+.first_overlaycontactblock:hover:before{
+	opacity: 0;
+}
+.mail_h5contact{
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	font-family: 'BigJohn';
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.text_content_mail{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'BigJohn';
+	color: black;
+	text-decoration: none;
+}
+.secondimg_contactblock{
+	display: inline-block;
+}
+.second_overlaycontactblock{
+	position: relative;
+	display: block;
+}
+.second_overlaycontactblock:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(68,71,75,0.5);
+	opacity: 1;
+
+}
+.second_overlaycontactblock:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(68,71,75,0.5);
+	opacity: 1;
+
+}
+.second_overlaycontactblock:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(68,71,75,0.5);
+	opacity: 1;
+
+}
+.second_overlaycontactblock:hover:after{
+	opacity: 0;
+
+}
+.second_overlaycontactblock:hover:before;{
+	opacity: 0;
+
+}
+.address_h5contact{
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	font-family: 'BigJohn';
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.text_content_address{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'BigJohn';
+	color: black;
+	text-decoration: none;
+}
+.third_contactblock{
+	display:inline-block;
+}
+.third_overlaycontactblock{
+	position: relative;
+	display: block;
+}
+.third_overlaycontactblock:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(68,71,75,0.5);
+	opacity: 1;
+
+
+}
+.third_overlaycontactblock:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(68,71,75,0.5);
+	opacity: 1;
+
+}
+.third_overlaycontactblock:hover:after{
+	opacity: 0;
+
+}
+.third_overlaycontactblock:hover:before{
+	opacity: 0;
+
+}
+.phone_h5contact{
+	font-size: 16px;
+	font-family: 'BigJohn';
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.text_content_phone{
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'BigJohn';
+	color: black;
+	text-decoration: none;
+}
+.text_content_phone:hover{
+	text-decoration: none;
+	color: black;
+}
+.text_content_address:hover{
+	text-decoration: none;
+	color: black;
+}
+.text_content_mail:hover{
+	text-decoration: none;
+	color: black;
+}
+.first_overlaycontactblock svg{
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	opacity: 1;
+
+}
+.first_overlaycontactblock:hover svg{
+		opacity: 0;
+}
+.second_overlaycontactblock svg{
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	opacity: 1;
+}
+.second_overlaycontactblock:hover svg{
+	opacity: 0;
+}
+.third_contactblock svg{
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	opacity: 1;
+}
+.third_contactblock:hover svg{
+	opacity: 0;
+}
+.contact_form{
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+}
+.inp_form_contact input{
+	width: 300px;
+	height: 40px;
+}
+.inp_subject_contact{
+	margin-left: 50px;
+}
+.inp_mail_contact{
+	margin-left: 50px;
+}
+.contact_form textarea{
+	width: 1008px;
+	height: 200px;
+	margin-top: 30px;
+}
+.contact_form  button{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'BigJohn';
+	color: #fff;
+	background-color: #19bd9a;
+	width: 1008px;
+	height: 50px;
+
+}
