@@ -33,9 +33,9 @@ body{
 	background-image: url(../img/bg_header.jpg);
 }
 .header_icon{
-	font-size: 14px;
+	font-size: 16px;
 	color: white;
-	font-weight: 600px;
+	font-weight: bold;
 	text-transform: uppercase;
 	font-family: 'BigJohn';
 	margin-top: 50px;
@@ -1958,4 +1958,804 @@ body{
 	width: 1008px;
 	height: 50px;
 
+}
+.section_map{
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 100px;
+}
+.content_map{
+	display: flex;
+	justify-content: center;
+}
+.content_map iframe{
+	width: 100%;
+}
+.map_block{
+	display: inline-block;
+	width: 100%;
+}
+.map_overflow{
+	display: block;
+	position: relative;
+}
+.map_overflow:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(36,36,36,0.7);
+	opacity: 1;
+}
+.map_overflow:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(36,36,36,0.7);
+	opacity: 1;
+}
+.map_overflow:hover:after{
+	opacity: 0;
+}
+.map_overflow:hover:before{
+	opacity: 0;
+}
+.h5_map{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'BigJohn';
+	text-transform: uppercase;
+	position: absolute;
+	top: 55%;
+	left: 38%;
+}
+.footer{
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+.h5_footer_bouncy{
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'BigJohn';
+	text-align: center;
+}
+.text_footer_bouncy{
+	font-size: 14px;
+	font-family: 'BigJohn';
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+}
+.footer_icons{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.twitter{
+	padding-left: 15px;
+}
+.bbc{
+	padding-left: 15px;
+}
+.instagram{
+	padding-left: 15px;
+}
+.google{
+	padding-left: 15px;
+}
+@media(min-width:1024px) and (max-width: 1199px){
+	.contact_form input{
+		display:inline-block;
+
+	}
+	.inp_subject_contact{
+	margin-left: 0px;
+}
+.slider_team_name{
+		display: block;
+		float: left;  
+		}
+.inp_mail_contact{
+	margin-left: 0px;
+}
+.first_project_overlay img{
+		width: 345px;
+		height: 300px;
+	}
+	.second_project_overlay img{
+		width: 345px;
+		height: 300px;	
+
+	}
+.contact_form textarea{
+	margin-top: 30px;
+	width: 905px;
+}
+.contact_form  button{
+	width: 905px;	
+}
+.slider_news{
+	width: 900px;
+}
+.bg_portfolio img{
+	width: 100%;
+}
+.bg_project{
+	width: 100%;
+}
+}
+@media(min-width:768px) and (max-width: 1000px){
+	.header_menu{
+		display: inline-block;
+		float: left;
+	}
+	.center_text_header{
+		margin-top: 50px;
+	}
+	.first_project_overlay img{
+		width: 345px;
+		height: 300px;
+	}
+	.second_project_overlay img{
+		width: 345px;
+		height: 300px;	
+
+	}
+	.details_text_p{
+		width: 60%;
+	}
+	.details_text_p2{
+		float: left;
+		margin-top: 50px;
+	}
+	.bouncy_mpressed{
+		display: flex;
+		justify-content: flex-start;
+		top: 10px;
+	}
+	.slide{
+		overflow: hidden;
+	}
+	.slider_sectiontestimonial img{
+		float: none;
+		padding-right: 0px;
+	}
+	.slider_team_name{
+		display: block;
+		float: left;  	 
+	}
+	.slidetestimonialtext{
+		width: 40%;
+	}
+	.slider_section img{
+		float: none;
+	}
+	.slider1_section img{
+		float: none;
+	}
+	.slider2_section img{
+		float: none;
+	}
+	.slider_sectiontestimonial img{
+		float: none;
+		padding-right: 0px;
+	}
+	.portfolio_works{
+		display: inline-block;
+		text-align: center;
+	}
+	.slider_news{
+	width: 700px;
+}
+.price_blocks{
+	display: inline-block;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.price_premium{
+	margin: 0px auto;
+	margin-top: 50px;
+}
+.list_price_menu{
+	margin-top: 200px;
+}
+.contact_contentsection{
+	display: inline-block;
+	text-align: center;
+
+}
+.second_contactblock{
+	padding-left: 0px;
+}
+.third_contactblock{
+	padding-left: 0px;
+}
+.contact_form {
+		display:inline-block;
+		text-align: center;
+
+	}
+.contact_form textarea{
+	margin-top: 30px;
+	width: 300px;
+	margin-left: 50px;
+	
+}
+.contact_form  button{
+	width: 300px;
+	margin-left: 50px;	
+}
+.second_contactblock{
+	padding-left: 0px;
+	text-align: center;
+}
+.third_contactblock{
+	padding-left: 0px;
+
+}
+.inp_name_contact{
+	margin-left: 50px;
+	text-align: center;
+	
+}
+.inp_mail_contact{
+	text-align: center;
+}
+.inp_subject_contact{
+	text-align: center;
+}
+	.contact_form {
+		display:inline-block;
+		text-align: center;
+
+	}
+.contact_form textarea{
+	margin-top: 30px;
+	width: 300px;
+	margin-left: 50px;
+	
+}
+.contact_form  button{
+	width: 300px;
+	margin-left: 50px;	
+}
+.bg_portfolio img{
+	width: 100%;
+}
+.bg_project {
+	width: 768px;
+}
+
+}
+@media(min-width:425px) and (max-width: 767px){
+	.header_icon{
+		text-align: center;
+	}
+	.menu_header{
+		display: flex;
+		justify-content: center;
+		margin: 0px;
+	}
+	.center_text_header{
+		margin-top: 10px;
+		font-size: 15px;
+	}
+	.text_center_header{
+		font-size: 10px;
+		margin-top: 0px;
+	}
+	.text_bouncysection{
+		text-align: center;
+		margin: 0px auto;
+	}
+	.btn_bouncy{
+		display: block;
+		margin: 0px auto;
+	}
+	.ipad_bouncy{
+		text-align: center;
+	}
+	.bouncy_h5section{
+		text-align: center;
+	}
+	.text_bouncysection{
+
+	}
+	.details_ideas{
+		text-align: center;
+	}
+	.text_details_h5{
+		font-size: 12px;
+		width: 60%;
+		margin: 0px auto;
+	}
+	.details_text_p{
+		width: 60%;
+		text-align: center;
+		margin: 0px auto;
+	}
+	.details_text_p2{
+		display: inline-block;
+		text-align: center;
+		margin-left:65px; 
+
+	}
+	.icons_service{
+		text-align: center;
+	}
+	.h5_programming{
+		text-align: center;
+	}
+	.text_about_programming{
+		width: 60%;
+		margin: 0px auto;
+		text-align: center;
+	}
+	.text_about_programming1{
+		width: 60%;
+		margin: 0px auto;
+		text-align: center;
+	}
+	.h5_graphic{
+		text-align: center;
+	}
+	.text_about_graphic{
+		width: 60%;
+		margin: 0px auto;
+		text-align: center;
+	}
+	.text_about_graphic1{
+		width: 60%;
+		margin: 0px auto;
+		text-align: center;
+	}
+	.h5_usebilliti{
+		text-align: center;
+	}
+	.text_about_usebilliti{
+		width: 60%;
+		margin: 0px auto;
+		text-align: center;
+	}
+	.text_about_usebilliti1{
+		width: 60%;
+		margin: 0px auto;
+		text-align: center;
+	}
+	.h5_serviceseo{
+		text-align: center;
+	}
+	.text_about_seo{
+		width: 60%;
+		margin: 0px auto;
+		text-align: center;
+	}
+	.text_about_seo1{
+		width: 60%;
+		margin: 0px auto;
+		text-align: center;
+	}
+
+	.text_projects{
+		width: 60%;
+		margin: 0px auto;
+	}
+	.text_service_center{
+		width: 60%;
+		margin: 0px auto;
+	}
+	.bouncy_mpressed{
+		top: 10px;
+	}
+	.menu_portfolio{
+		display:block;
+		text-align: center;
+		margin-top: 0px;
+
+	}
+	.portfolio_works{
+		display: block;
+		text-align: center;
+	}
+	.slider_team_name{
+		display: block;
+		float: left;  
+		 
+	}
+	.slide{
+		overflow: hidden;
+	}
+	.slider_section img{
+		float: none;
+	}
+	.slider1_section img{
+		float: none;
+	}
+	.slider2_section img{
+		float: none;
+	}
+	.slider_sectiontestimonial img{
+		float: none;
+		padding-right: 0px;
+	}
+	.slidetestimonialtext{
+		width: 40%;
+	}
+	.slider_news{
+		width: 400px;
+	}
+	.text_latestnews{
+		width: 40%;
+	}
+	.text_news_beforereread{
+		font-size: 12px;
+		width: 60%;
+	}
+	.price_blocks{
+	display: inline-block;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.price_premium{
+	margin: 0px auto;
+	margin-top: 50px;
+}
+.list_price_menu{
+	margin-top: 200px;
+}
+.form button{
+	margin-top: 20px;
+}
+.contact_contentsection{
+	display: inline-block;
+	text-align: center;
+
+}
+.second_contactblock{
+	padding-left: 0px;
+	text-align: center;
+}
+.third_contactblock{
+	padding-left: 0px;
+
+}
+.inp_name_contact{
+	margin-left: 50px;
+	text-align: center;
+	
+}
+.inp_mail_contact{
+	text-align: center;
+}
+.inp_subject_contact{
+	text-align: center;
+}
+	.contact_form {
+		display:inline-block;
+		text-align: center;
+
+	}
+.contact_form textarea{
+	margin-top: 30px;
+	width: 300px;
+	margin-left: 50px;
+	
+}
+.contact_form  button{
+	width: 300px;
+	margin-left: 50px;	
+}
+.bg_project{
+	width: 100%;
+}
+.bg_portfolio img{
+	width: 100%;
+}
+}
+@media(min-width:375px) and (max-width: 425px){
+	.header_menu{
+		display: inline-block;
+		float: left;
+	}
+	.first_project_overlay img{
+		width: 345px;
+		height: 300px;
+	}
+	.second_project_overlay img{
+		width: 345px;
+		height: 300px;	
+
+	}
+	.center_text_header{
+		margin-top: 50px;
+	}
+	.details_text_p{
+		width: 60%;
+	}
+	.details_text_p2{
+		float: left;
+		margin-top: 50px;
+	}
+	.bouncy_mpressed{
+		top: 10px;
+		display: flex;
+		justify-content: flex-start;
+	}
+	.bouncy_mpressed img{
+		width: 60%;
+	}
+	.menu_portfolio{
+		display:block;
+		text-align: center;
+		margin-top: 0px;
+
+	}
+	.portfolio_works{
+		display: block;
+		text-align: center;
+	}
+	.slide{
+		overflow: hidden;
+	}
+	.slider_team_name{
+		display: block;
+		float: left;  
+		 
+	}
+	.slider_section img{
+		float: none;
+	}
+	.slider1_section img{
+		float: none;
+	}
+	.slider2_section img{
+		float: none;
+	}
+	.slider_sectiontestimonial img{
+		float: none;
+		padding-right: 0px;
+	}
+	.slide_testimonial{
+		overflow: hidden;
+	}
+	.slidetestimonialtext{
+		width: 30%;
+	}
+	.slider_news{
+		width: 300px;
+		text-align: center;
+		overflow: hidden;
+	}
+	.slides_news{
+		display:flex;
+	}
+	.text_latestnews{
+		font-size:12px; 
+		width: 40%;
+		margin: 0px auto;
+	}
+	.text_news_beforereread{
+		font-size: 12px;
+		width: 80%;
+		margin: 0px auto;
+	}
+	.price_blocks{
+	display: inline-block;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.price_premium{
+	margin: 0px auto;
+	margin-top: 50px;
+}
+.list_price_menu{
+	margin-top: 200px;
+}
+.form button{
+	margin-top: 20px;
+}
+.contact_contentsection{
+	display: inline-block;
+	text-align: center;
+
+}
+.second_contactblock{
+	padding-left: 0px;
+	text-align: center;
+}
+.third_contactblock{
+	padding-left: 0px;
+
+}
+.inp_name_contact{
+	margin-left: 50px;
+	text-align: center;
+	
+}
+.inp_mail_contact{
+	text-align: center;
+}
+.inp_subject_contact{
+	text-align: center;
+}
+	.contact_form {
+		display:inline-block;
+		text-align: center;
+
+	}
+.contact_form textarea{
+	margin-top: 30px;
+	width: 300px;
+	margin-left: 50px;
+	
+}
+.contact_form  button{
+	width: 300px;
+	margin-left: 50px;	
+}
+.bg_project{
+	width: 100%;
+}
+.bg_portfolio img{
+	width: 100%;
+}
+}
+@media(min-width:320px) and (max-width: 375px){
+	.header_menu{
+		display: inline-block;
+		float: left;
+	}
+	.first_project_overlay img{
+		width: 345px;
+		height: 300px;
+	}
+	.second_project_overlay img{
+		width: 345px;
+		height: 300px;	
+
+	}
+	.center_text_header{
+		margin-top: 50px;
+	}
+	.details_text_p{
+		width: 60%;
+	}
+	.details_text_p2{
+		float: left;
+		margin-top: 50px;
+	}
+	.bouncy_mpressed{
+		top: 10px;
+		display: flex;
+		justify-content: flex-start;
+	}
+	.bouncy_mpressed img{
+		width: 60%;
+	}
+	.menu_portfolio{
+		display:block;
+		text-align: center;
+		margin-top: 0px;
+
+	}
+	.portfolio_works{
+		display: block;
+		text-align: center;
+	}
+	.slide{
+		overflow: hidden;
+	}
+	.slider_team_name{
+		display: block;
+		float: left;  
+		 
+	}
+	.slider_section img{
+		float: none;
+	}
+	.slider1_section img{
+		float: none;
+	}
+	.slider2_section img{
+		float: none;
+	}
+	.slider_sectiontestimonial img{
+		float: none;
+		padding-right: 0px;
+	}
+	.slide_testimonial{
+		overflow: hidden;
+	}
+	.slidetestimonialtext{
+		width: 30%;
+	}
+	.slider_news{
+		width: 300px;
+		text-align: center;
+		overflow: hidden;
+	}
+	.slides_news{
+		display:flex;
+	}
+	.text_latestnews{
+		font-size:12px; 
+		width: 40%;
+		margin: 0px auto;
+	}
+	.text_news_beforereread{
+		font-size: 12px;
+		width: 80%;
+		margin: 0px auto;
+	}
+	.price_blocks{
+	display: inline-block;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.price_premium{
+	margin: 0px auto;
+	margin-top: 50px;
+}
+.list_price_menu{
+	margin-top: 200px;
+}
+.form button{
+	margin-top: 20px;
+}
+.contact_contentsection{
+	display: inline-block;
+	text-align: center;
+
+}
+.second_contactblock{
+	padding-left: 0px;
+	text-align: center;
+}
+.third_contactblock{
+	padding-left: 0px;
+
+}
+.inp_name_contact{
+	margin-left: 50px;
+	text-align: center;
+	
+}
+.inp_mail_contact{
+	text-align: center;
+}
+.inp_subject_contact{
+	text-align: center;
+}
+	.contact_form {
+		display:inline-block;
+		text-align: center;
+
+	}
+.contact_form textarea{
+	margin-top: 30px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	margin-left: 50px;
+}
+.contact_form  button{
+	width: 300px;
+	margin-left: 50px;	
+}
+.bg_project{
+	width: 100%;
+}
+.bg_portfolio img{
+	width: 100%;
+}
 }
