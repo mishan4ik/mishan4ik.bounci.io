@@ -2094,7 +2094,7 @@ body{
 	width: 100%;
 }
 }
-@media(min-width:768px) and (max-width: 1000px){
+@media(min-width:768px) and (max-width: 1023px){
 	.header_menu{
 		display: inline-block;
 		float: left;
@@ -2110,6 +2110,14 @@ body{
 		width: 345px;
 		height: 300px;	
 
+	}
+	.slide{
+		width: 768px;
+		overflow: hidden;
+	}
+	.slide_testimonial{
+		width: 768px;
+		overflow: hidden;
 	}
 	.details_text_p{
 		width: 60%;
@@ -2238,124 +2246,36 @@ body{
 
 }
 @media(min-width:425px) and (max-width: 767px){
-	.header_icon{
-		text-align: center;
+	.header_menu{
+		display: inline-block;
+		float: left;
 	}
-	.menu_header{
-		display: flex;
-		justify-content: center;
-		margin: 0px;
+	.first_project_overlay img{
+		width: 345px;
+		height: 300px;
 	}
-	.center_text_header{
-		margin-top: 10px;
-		font-size: 15px;
-	}
-	.text_center_header{
-		font-size: 10px;
-		margin-top: 0px;
-	}
-	.text_bouncysection{
-		text-align: center;
-		margin: 0px auto;
-	}
-	.btn_bouncy{
-		display: block;
-		margin: 0px auto;
-	}
-	.ipad_bouncy{
-		text-align: center;
-	}
-	.bouncy_h5section{
-		text-align: center;
-	}
-	.text_bouncysection{
+	.second_project_overlay img{
+		width: 345px;
+		height: 300px;	
 
 	}
-	.details_ideas{
-		text-align: center;
-	}
-	.text_details_h5{
-		font-size: 12px;
-		width: 60%;
-		margin: 0px auto;
+	.center_text_header{
+		margin-top: 50px;
 	}
 	.details_text_p{
 		width: 60%;
-		text-align: center;
-		margin: 0px auto;
 	}
 	.details_text_p2{
-		display: inline-block;
-		text-align: center;
-		margin-left:65px; 
-
-	}
-	.icons_service{
-		text-align: center;
-	}
-	.h5_programming{
-		text-align: center;
-	}
-	.text_about_programming{
-		width: 60%;
-		margin: 0px auto;
-		text-align: center;
-	}
-	.text_about_programming1{
-		width: 60%;
-		margin: 0px auto;
-		text-align: center;
-	}
-	.h5_graphic{
-		text-align: center;
-	}
-	.text_about_graphic{
-		width: 60%;
-		margin: 0px auto;
-		text-align: center;
-	}
-	.text_about_graphic1{
-		width: 60%;
-		margin: 0px auto;
-		text-align: center;
-	}
-	.h5_usebilliti{
-		text-align: center;
-	}
-	.text_about_usebilliti{
-		width: 60%;
-		margin: 0px auto;
-		text-align: center;
-	}
-	.text_about_usebilliti1{
-		width: 60%;
-		margin: 0px auto;
-		text-align: center;
-	}
-	.h5_serviceseo{
-		text-align: center;
-	}
-	.text_about_seo{
-		width: 60%;
-		margin: 0px auto;
-		text-align: center;
-	}
-	.text_about_seo1{
-		width: 60%;
-		margin: 0px auto;
-		text-align: center;
-	}
-
-	.text_projects{
-		width: 60%;
-		margin: 0px auto;
-	}
-	.text_service_center{
-		width: 60%;
-		margin: 0px auto;
+		float: left;
+		margin-top: 50px;
 	}
 	.bouncy_mpressed{
 		top: 10px;
+		display: flex;
+		justify-content: flex-start;
+	}
+	.bouncy_mpressed img{
+		width: 60%;
 	}
 	.menu_portfolio{
 		display:block;
@@ -2367,13 +2287,41 @@ body{
 		display: block;
 		text-align: center;
 	}
+	.text_bg_portfolio{
+		left: 15%;
+		top: 20%;
+		font-size: 12px;
+
+	}
+	.btn_bg_portfolio{
+		top: 42%;
+		left: 40%;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.overlay_bg_projects{
+		font-size: 12px;
+		width: 50%;
+		top: 25%
+	}
+	.overlay_btnproject{
+		left: 60%;
+		top: 30%;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px; 
+	}
+	.slide{
+		width: 425px;
+		overflow: hidden;
+	}
 	.slider_team_name{
 		display: block;
 		float: left;  
 		 
-	}
-	.slide{
-		overflow: hidden;
 	}
 	.slider_section img{
 		float: none;
@@ -2388,18 +2336,30 @@ body{
 		float: none;
 		padding-right: 0px;
 	}
+	.slide_testimonial{
+		width: 425px;
+		overflow: hidden;
+	}
 	.slidetestimonialtext{
-		width: 40%;
+		width: 60%;
 	}
 	.slider_news{
-		width: 400px;
+		width: 300px;
+		text-align: center;
+		overflow: hidden;
+	}
+	.slides_news{
+		display:flex;
 	}
 	.text_latestnews{
+		font-size:12px; 
 		width: 40%;
+		margin: 0px auto;
 	}
 	.text_news_beforereread{
 		font-size: 12px;
-		width: 60%;
+		width: 80%;
+		margin: 0px auto;
 	}
 	.price_blocks{
 	display: inline-block;
@@ -2430,15 +2390,16 @@ body{
 
 }
 .inp_name_contact{
-	margin-left: 50px;
 	text-align: center;
 	
 }
 .inp_mail_contact{
 	text-align: center;
+	margin: 0px auto;
 }
 .inp_subject_contact{
 	text-align: center;
+	margin: 0px auto;
 }
 	.contact_form {
 		display:inline-block;
@@ -2446,14 +2407,13 @@ body{
 
 	}
 .contact_form textarea{
-	margin-top: 30px;
 	width: 300px;
-	margin-left: 50px;
+	display: block;
+	margin: 0px auto;
 	
 }
 .contact_form  button{
 	width: 300px;
-	margin-left: 50px;	
 }
 .bg_project{
 	width: 100%;
@@ -2462,7 +2422,7 @@ body{
 	width: 100%;
 }
 }
-@media(min-width:375px) and (max-width: 425px){
+@media(min-width:375px) and (max-width: 424px){
 	.header_menu{
 		display: inline-block;
 		float: left;
@@ -2652,7 +2612,34 @@ body{
 		display: block;
 		text-align: center;
 	}
+	.text_bg_portfolio{
+		font-size: 10px;
+		left: 15%;
+		top: 5%;
+		width: 80%;
+
+	}
+	.btn_bg_portfolio{
+		top: 30%;
+		left: 33%;
+		font-size: 12px;
+		border: none;
+	}
+	.overlay_bg_projects{
+		font-size: 12px;
+		width: 50%;
+		top: 25%
+	}
+	.overlay_btnproject{
+		left: 60%;
+		top: 30%;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px; 
+	}
 	.slide{
+		width: 300px;
 		overflow: hidden;
 	}
 	.slider_team_name{
@@ -2674,10 +2661,11 @@ body{
 		padding-right: 0px;
 	}
 	.slide_testimonial{
+		width: 300px;
 		overflow: hidden;
 	}
 	.slidetestimonialtext{
-		width: 30%;
+		width: 60%;
 	}
 	.slider_news{
 		width: 300px;
@@ -2709,6 +2697,9 @@ body{
 .list_price_menu{
 	margin-top: 200px;
 }
+.form input{
+	width:150px;
+}
 .form button{
 	margin-top: 20px;
 }
@@ -2726,31 +2717,33 @@ body{
 
 }
 .inp_name_contact{
-	margin-left: 50px;
 	text-align: center;
 	
 }
 .inp_mail_contact{
 	text-align: center;
+	margin: 0px auto;
 }
 .inp_subject_contact{
 	text-align: center;
+	margin: 0px auto;
+}
+.inp_form_contact input{
+	width: 80%;
 }
 	.contact_form {
 		display:inline-block;
-		text-align: center;
+		text-align: left;
 
 	}
 .contact_form textarea{
 	margin-top: 30px;
-	width: 300px;
+	width: 80%;
 	display: flex;
 	justify-content: center;
-	margin-left: 50px;
 }
 .contact_form  button{
-	width: 300px;
-	margin-left: 50px;	
+	width: 80%;	
 }
 .bg_project{
 	width: 100%;
